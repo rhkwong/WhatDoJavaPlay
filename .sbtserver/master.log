@@ -143,3 +143,53 @@ Running task... Cancel: sbt.server.ServerTaskCancellation@bf53be3, check cycles:
 Total time: 0 s, completed Jul 12, 2015 2:00:44 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@4a921906, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(/Users/ryankwong/play-java/app/models/EventToDo.java, /Users/ryankwong/play-java/app/models/ActivityToDo.java)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/ryankwong/play-java/app/models/EventToDo.java, /Users/ryankwong/play-java/app/models/ActivityToDo.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/ryankwong/play-java/app/models/EventToDo.java, /Users/ryankwong/play-java/app/models/ActivityToDo.java)
+
+Read from stdout: Compiling 2 Java sources to /Users/ryankwong/play-java/target/scala-2.11/classes...
+Compiling 2 Java sources to /Users/ryankwong/play-java/target/scala-2.11/classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@3f94229e directly...
+Java compilation took 1.096633 s
+Java analysis took 0.201174 s
+Java compile + analysis took 1.313595 s
+Invalidating /Users/ryankwong/play-java/app/models/EventToDo.java...
+Invalidating (transitively) by inheritance from /Users/ryankwong/play-java/app/models/EventToDo.java...
+Initial set of included nodes: Set(/Users/ryankwong/play-java/app/models/EventToDo.java)
+Invalidated by transitive inheritance dependency: Set(/Users/ryankwong/play-java/app/models/EventToDo.java)
+The /Users/ryankwong/play-java/app/models/EventToDo.java source file has the following regular definitions changed:
+	notify, wait, equals, description, notifyAll, EventToDo, <init>, date, toString, getClass, hashCode.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: /Users/ryankwong/play-java/app/models/EventToDo.java
+Invalidating /Users/ryankwong/play-java/app/models/ActivityToDo.java...
+Invalidating (transitively) by inheritance from /Users/ryankwong/play-java/app/models/ActivityToDo.java...
+Initial set of included nodes: Set(/Users/ryankwong/play-java/app/models/ActivityToDo.java)
+Invalidated by transitive inheritance dependency: Set(/Users/ryankwong/play-java/app/models/ActivityToDo.java)
+The /Users/ryankwong/play-java/app/models/ActivityToDo.java source file has the following regular definitions changed:
+	notify, getTags, wait, equals, description, tags, getDescription, notifyAll, <init>, ActivityToDo, numPeople, toString, getClass, getNumPeople, hashCode.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: /Users/ryankwong/play-java/app/models/ActivityToDo.java
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 2 s, completed Jul 12, 2015 2:49:08 PM
+> server-post-command-cleanup
+> server-handle-next-server-request

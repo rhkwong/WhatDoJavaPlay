@@ -950,3 +950,294 @@ Client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe closed, java.net.SocketExc
 Stopping client.
 Dropping message (0,ReceivedResponse()) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
 Client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe thread exiting.
+Dropping message ExecutionWaiting(6,compile,ClientInfo(2ed3f1b0-99e4-44b2-8788-e9b81c9097b1,activator,Activator,3,Vector())) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message ExecutionStarting(6) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message DetachedLogEvent(LogMessage(debug,> compile)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message DetachedLogEvent(LogMessage(debug,Evaluating tasks: compile:compile)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message DetachedLogEvent(LogMessage(debug,Running task... Cancel: sbt.server.ServerTaskCancellation@4a921906, check cycles: false)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message DetachedLogEvent(LogMessage(debug,cancel strategy start enabled=true lastCommand=Some(LastCommand(CommandExecutionWork(ExecutionId(6),compile,Set(LiveClient(activator 2ed3f1b0-99e4-44b2-8788-e9b81c9097b1)),sbt.server.WorkCancellationStatus$$anon$1@52cd05a0))))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,366,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,373,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,380,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,381,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,382,Some(AttributeKey[boolean]("skip") in Scope(Global))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,386,Some(AttributeKey[java.lang.String]("updateCacheName") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,393,Some(AttributeKey[scala.collection.Seq[sbt.Credentials]]("credentials") in Scope(Global))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,396,Some(AttributeKey[scala.collection.Seq[sbt.Resolver]]("externalResolvers") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,397,Some(AttributeKey[scala.Option[scala.collection.Seq[sbt.Resolver]]]("bootResolvers") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,402,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,405,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,406,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,417,Some(AttributeKey[java.lang.String]("compileAnalysisFilename") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,420,Some(AttributeKey[sbt.inc.IncOptions]("incOptions") in Scope(Global))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,421,Some(AttributeKey[scala.Function1[java.io.File,scala.Function1[java.lang.String,boolean]]]("definesClass") in Scope(Global))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,428,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,430,Some(AttributeKey[scala.collection.Seq[scala.Function1[xsbti.Position,scala.Option[xsbti.Position]]]]("sourcePositionMappers") in Scope(Global))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,434,Some(AttributeKey[scala.collection.Seq[java.lang.String]]("scalacOptions") in Scope(Global))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,435,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,439,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,449,Some(AttributeKey[scala.collection.Seq[java.io.File]]("unmanagedSources") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,451,Some(AttributeKey[scala.collection.Seq[java.lang.String]]("javacOptions") in Scope(Global))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,452,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,455,Some(AttributeKey[sbt.SendEventService]("sendEventService") in Scope(Global))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,366,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,365,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,375,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,385,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,392,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,400,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,401,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,407,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,410,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,411,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,413,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,422,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,437,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,440,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,447,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,456,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,457,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,373,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,380,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,379,Some(AttributeKey[sbt.BuildStructure]("buildStructure") in Scope(Global))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,403,Some(AttributeKey[java.io.File]("dependencyCacheDirectory") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,418,Some(AttributeKey[xsbti.compile.GlobalsCache]("compilerCache") in Scope(Global))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,444,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,381,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,382,Some(AttributeKey[boolean]("skip") in Scope(Global)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,393,Some(AttributeKey[scala.collection.Seq[sbt.Credentials]]("credentials") in Scope(Global)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,402,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,386,Some(AttributeKey[java.lang.String]("updateCacheName") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,397,Some(AttributeKey[scala.Option[scala.collection.Seq[sbt.Resolver]]]("bootResolvers") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,406,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,396,Some(AttributeKey[scala.collection.Seq[sbt.Resolver]]("externalResolvers") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,405,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,404,Some(AttributeKey[scala.collection.Seq[sbt.UpdateReport]]("transitiveUpdate") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,417,Some(AttributeKey[java.lang.String]("compileAnalysisFilename") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,420,Some(AttributeKey[sbt.inc.IncOptions]("incOptions") in Scope(Global)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,419,Some(AttributeKey[sbt.inc.IncOptions]("incOptions") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,421,Some(AttributeKey[scala.Function1[java.io.File,scala.Function1[java.lang.String,boolean]]]("definesClass") in Scope(Global)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,428,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,430,Some(AttributeKey[scala.collection.Seq[scala.Function1[xsbti.Position,scala.Option[xsbti.Position]]]]("sourcePositionMappers") in Scope(Global)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,434,Some(AttributeKey[scala.collection.Seq[java.lang.String]]("scalacOptions") in Scope(Global)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,435,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,433,Some(AttributeKey[scala.collection.Seq[java.lang.String]]("scalacOptions") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,439,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,449,Some(AttributeKey[scala.collection.Seq[java.io.File]]("unmanagedSources") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,448,Some(AttributeKey[scala.collection.Seq[java.io.File]]("unmanagedSources") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,451,Some(AttributeKey[scala.collection.Seq[java.lang.String]]("javacOptions") in Scope(Global)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,452,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,450,Some(AttributeKey[scala.collection.Seq[java.lang.String]]("javacOptions") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,455,Some(AttributeKey[sbt.SendEventService]("sendEventService") in Scope(Global)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,365,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,375,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,385,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,384,Some(AttributeKey[scala.collection.immutable.Map[sbt.ModuleID,sbt.SourcePosition]]("dependencyPositions") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,392,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,400,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,401,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,407,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,410,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,411,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,413,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,422,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,437,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,440,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,447,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,456,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,457,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,379,Some(AttributeKey[sbt.BuildStructure]("buildStructure") in Scope(Global)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,378,Some(AttributeKey[sbt.Settings[sbt.Scope]]("settingsData") in Scope(Global))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,418,Some(AttributeKey[xsbti.compile.GlobalsCache]("compilerCache") in Scope(Global)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,403,Some(AttributeKey[java.io.File]("dependencyCacheDirectory") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,444,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,404,Some(AttributeKey[scala.collection.Seq[sbt.UpdateReport]]("transitiveUpdate") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,419,Some(AttributeKey[sbt.inc.IncOptions]("incOptions") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,433,Some(AttributeKey[scala.collection.Seq[java.lang.String]]("scalacOptions") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,432,Some(AttributeKey[java.lang.String]("twirlSourceEncoding") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,448,Some(AttributeKey[scala.collection.Seq[java.io.File]]("unmanagedSources") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,450,Some(AttributeKey[scala.collection.Seq[java.lang.String]]("javacOptions") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,384,Some(AttributeKey[scala.collection.immutable.Map[sbt.ModuleID,sbt.SourcePosition]]("dependencyPositions") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,383,Some(AttributeKey[sbt.UnresolvedWarningConfiguration]("unresolvedWarningConfiguration") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Task: AttributeKey[sbt.UpdateReport]("update")))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,378,Some(AttributeKey[sbt.Settings[sbt.Scope]]("settingsData") in Scope(Global)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,377,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,390,Some(AttributeKey[scala.collection.Seq[sbt.ModuleID]]("projectDependencies") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,399,Some(AttributeKey[scala.collection.immutable.Map[org.apache.ivy.core.module.id.ModuleRevisionId,org.apache.ivy.core.module.descriptor.ModuleDescriptor]]("projectDescriptors") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,409,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,438,Some(AttributeKey[sbt.ScalaInstance]("scalaInstance") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,454,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,432,Some(AttributeKey[java.lang.String]("twirlSourceEncoding") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,431,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,446,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,383,Some(AttributeKey[sbt.UnresolvedWarningConfiguration]("unresolvedWarningConfiguration") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Task: AttributeKey[sbt.UpdateReport]("update"))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,459,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,390,Some(AttributeKey[scala.collection.Seq[sbt.ModuleID]]("projectDependencies") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,389,Some(AttributeKey[scala.collection.Seq[sbt.ModuleID]]("allDependencies") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,461,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,464,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,469,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,470,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,472,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,431,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,429,Some(AttributeKey[scala.collection.Seq[scala.Function1[xsbti.Position,scala.Option[xsbti.Position]]]]("sourcePositionMappers") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,459,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,377,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,389,Some(AttributeKey[scala.collection.Seq[sbt.ModuleID]]("allDependencies") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,388,Some(AttributeKey[sbt.ModuleSettings]("moduleSettings") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,461,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,460,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,464,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,463,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,469,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,470,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,468,Some(AttributeKey[scala.collection.Seq[sbt.Attributed[java.io.File]]]("unmanagedJars") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,472,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,471,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,446,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,445,Some(AttributeKey[scala.collection.Seq[java.io.File]]("twirlCompileTemplates") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,429,Some(AttributeKey[scala.collection.Seq[scala.Function1[xsbti.Position,scala.Option[xsbti.Position]]]]("sourcePositionMappers") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,427,Some(AttributeKey[scala.collection.Seq[scala.Function1[xsbti.Position,scala.Option[xsbti.Position]]]]("sourcePositionMappers") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,388,Some(AttributeKey[sbt.ModuleSettings]("moduleSettings") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,460,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,454,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,463,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,399,Some(AttributeKey[scala.collection.immutable.Map[org.apache.ivy.core.module.id.ModuleRevisionId,org.apache.ivy.core.module.descriptor.ModuleDescriptor]]("projectDescriptors") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,398,Some(AttributeKey[sbt.Resolver]("projectResolver") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,473,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,468,Some(AttributeKey[scala.collection.Seq[sbt.Attributed[java.io.File]]]("unmanagedJars") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,445,Some(AttributeKey[scala.collection.Seq[java.io.File]]("twirlCompileTemplates") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,443,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,427,Some(AttributeKey[scala.collection.Seq[scala.Function1[xsbti.Position,scala.Option[xsbti.Position]]]]("sourcePositionMappers") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,398,Some(AttributeKey[sbt.Resolver]("projectResolver") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,395,Some(AttributeKey[scala.collection.Seq[sbt.Resolver]]("fullResolvers") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,473,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,471,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,467,Some(AttributeKey[scala.collection.Seq[sbt.Attributed[java.io.File]]]("unmanagedJars") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,443,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,442,Some(AttributeKey[scala.collection.Seq[java.io.File]]("managedSources") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,395,Some(AttributeKey[scala.collection.Seq[sbt.Resolver]]("fullResolvers") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,394,Some(AttributeKey[sbt.IvyConfiguration]("ivyConfiguration") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,467,Some(AttributeKey[scala.collection.Seq[sbt.Attributed[java.io.File]]]("unmanagedJars") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,466,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,442,Some(AttributeKey[scala.collection.Seq[java.io.File]]("managedSources") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,441,Some(AttributeKey[scala.collection.Seq[java.io.File]]("sources") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,466,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,465,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,394,Some(AttributeKey[sbt.IvyConfiguration]("ivyConfiguration") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,391,Some(AttributeKey[sbt.IvySbt]("ivySbt") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,441,Some(AttributeKey[scala.collection.Seq[java.io.File]]("sources") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,465,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,409,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,408,Some(AttributeKey[scala.collection.Seq[sbt.Attributed[java.io.File]]]("unmanagedClasspath") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,391,Some(AttributeKey[sbt.IvySbt]("ivySbt") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,387,Some(AttributeKey[sbt.IvySbt$Module]("ivyModule") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,408,Some(AttributeKey[scala.collection.Seq[sbt.Attributed[java.io.File]]]("unmanagedClasspath") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,387,Some(AttributeKey[sbt.IvySbt$Module]("ivyModule") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,376,Some(AttributeKey[sbt.UpdateReport]("update") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,376,Some(AttributeKey[sbt.UpdateReport]("update") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,374,Some(AttributeKey[sbt.UpdateReport]("update") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root)))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,374,Some(AttributeKey[sbt.UpdateReport]("update") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,372,Some(AttributeKey[sbt.Configuration]("classpathConfiguration") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,453,Some(AttributeKey[scala.collection.Seq[java.lang.String]]("scalacOptions") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,462,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,372,Some(AttributeKey[sbt.Configuration]("classpathConfiguration") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,371,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,414,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,462,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,438,Some(AttributeKey[sbt.ScalaInstance]("scalaInstance") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,436,Some(AttributeKey[sbt.Compiler$Compilers]("compilers") in Scope(Global))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,476,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,477,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,371,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,370,Some(AttributeKey[scala.collection.Seq[sbt.Attributed[java.io.File]]]("managedClasspath") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,476,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,477,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,475,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,436,Some(AttributeKey[sbt.Compiler$Compilers]("compilers") in Scope(Global)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,370,Some(AttributeKey[scala.collection.Seq[sbt.Attributed[java.io.File]]]("managedClasspath") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,369,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,475,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,474,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,369,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,368,Some(AttributeKey[scala.collection.Seq[sbt.Attributed[java.io.File]]]("externalDependencyClasspath") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,474,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,414,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,412,Some(AttributeKey[scala.collection.Seq[sbt.Attributed[java.io.File]]]("internalDependencyClasspath") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,368,Some(AttributeKey[scala.collection.Seq[sbt.Attributed[java.io.File]]]("externalDependencyClasspath") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,412,Some(AttributeKey[scala.collection.Seq[sbt.Attributed[java.io.File]]]("internalDependencyClasspath") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,367,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,453,Some(AttributeKey[scala.collection.Seq[java.lang.String]]("scalacOptions") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,367,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,364,Some(AttributeKey[scala.collection.Seq[sbt.Attributed[java.io.File]]]("dependencyClasspath") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,364,Some(AttributeKey[scala.collection.Seq[sbt.Attributed[java.io.File]]]("dependencyClasspath") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,416,Some(AttributeKey[sbt.Compiler$IncSetup]("incCompileSetup") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,416,Some(AttributeKey[sbt.Compiler$IncSetup]("incCompileSetup") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,426,Some(AttributeKey[sbt.Compiler$Inputs]("compileInputs") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile, Task: AttributeKey[sbt.inc.Analysis]("compile")))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,458,Some(AttributeKey[sbt.Compiler$PreviousAnalysis]("readAnalysis") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,458,Some(AttributeKey[sbt.Compiler$PreviousAnalysis]("readAnalysis") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,426,Some(AttributeKey[sbt.Compiler$Inputs]("compileInputs") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile, Task: AttributeKey[sbt.inc.Analysis]("compile"))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,425,Some(AttributeKey[scala.Option[xsbti.Reporter]]("compilerReporter") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile, Task: AttributeKey[sbt.inc.Analysis]("compile")))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,425,Some(AttributeKey[scala.Option[xsbti.Reporter]]("compilerReporter") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile, Task: AttributeKey[sbt.inc.Analysis]("compile"))),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,424,Some(AttributeKey[sbt.compiler.IC$Result]("compileIncremental") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,
+Initial source changes: 
+	removed:Set()
+	added: Set(/Users/ryankwong/play-java/app/models/EventToDo.java, /Users/ryankwong/play-java/app/models/ActivityToDo.java)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/ryankwong/play-java/app/models/EventToDo.java, /Users/ryankwong/play-java/app/models/ActivityToDo.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set())) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,All initially invalidated sources: Set(/Users/ryankwong/play-java/app/models/EventToDo.java, /Users/ryankwong/play-java/app/models/ActivityToDo.java)
+)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(info,Read from stdout: Compiling 2 Java sources to /Users/ryankwong/play-java/target/scala-2.11/classes...)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(info,Compiling 2 Java sources to /Users/ryankwong/play-java/target/scala-2.11/classes...)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,Attempting to call com.sun.tools.javac.api.JavacTool@3f94229e directly...)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,Java compilation took 1.096633 s)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,Java analysis took 0.201174 s)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,Java compile + analysis took 1.313595 s)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,Invalidating /Users/ryankwong/play-java/app/models/EventToDo.java...)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,Invalidating (transitively) by inheritance from /Users/ryankwong/play-java/app/models/EventToDo.java...)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,Initial set of included nodes: Set(/Users/ryankwong/play-java/app/models/EventToDo.java))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,Invalidated by transitive inheritance dependency: Set(/Users/ryankwong/play-java/app/models/EventToDo.java))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,The /Users/ryankwong/play-java/app/models/EventToDo.java source file has the following regular definitions changed:
+	notify, wait, equals, description, notifyAll, EventToDo, <init>, date, toString, getClass, hashCode.
+All member reference dependencies will be considered within this context.)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,Name hashing optimization doesn't apply to non-Scala dependency: /Users/ryankwong/play-java/app/models/EventToDo.java)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,Invalidating /Users/ryankwong/play-java/app/models/ActivityToDo.java...)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,Invalidating (transitively) by inheritance from /Users/ryankwong/play-java/app/models/ActivityToDo.java...)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,Initial set of included nodes: Set(/Users/ryankwong/play-java/app/models/ActivityToDo.java))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,Invalidated by transitive inheritance dependency: Set(/Users/ryankwong/play-java/app/models/ActivityToDo.java))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,The /Users/ryankwong/play-java/app/models/ActivityToDo.java source file has the following regular definitions changed:
+	notify, getTags, wait, equals, description, tags, getDescription, notifyAll, <init>, ActivityToDo, numPeople, toString, getClass, getNumPeople, hashCode.
+All member reference dependencies will be considered within this context.)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,Name hashing optimization doesn't apply to non-Scala dependency: /Users/ryankwong/play-java/app/models/ActivityToDo.java)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,New invalidations:
+	Set())) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,Initial set of included nodes: Set())) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,Previously invalidated, but (transitively) depend on new invalidations:
+	Set())) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskLogEvent(424,LogMessage(debug,All newly invalidated sources after taking into account (previously) recompiled sources:Set())) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,424,Some(AttributeKey[sbt.compiler.IC$Result]("compileIncremental") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,423,Some(AttributeKey[sbt.compiler.IC$Result]("manipulateBytecode") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,423,Some(AttributeKey[sbt.compiler.IC$Result]("manipulateBytecode") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,415,Some(AttributeKey[sbt.inc.Analysis]("compile") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,415,Some(AttributeKey[sbt.inc.Analysis]("compile") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,363,Some(AttributeKey[sbt.inc.Analysis]("compile") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,363,Some(AttributeKey[sbt.inc.Analysis]("compile") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,362,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,478,Some(AttributeKey[scala.collection.Seq[java.lang.String]]("discoveredMainClasses") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,478,Some(AttributeKey[scala.collection.Seq[java.lang.String]]("discoveredMainClasses") in Scope(Build: file:/Users/ryankwong/play-java/, , Project: ProjectReference(file:/Users/ryankwong/play-java/,root), Config: compile)),true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,362,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskStarted(6,361,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message TaskFinished(6,361,None,true,None) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message DetachedLogEvent(LogMessage(debug,cancel strategy finish enabled=false lastCommand=Some(LastCommand(CommandExecutionWork(ExecutionId(6),compile,Set(LiveClient(activator 2ed3f1b0-99e4-44b2-8788-e9b81c9097b1)),sbt.server.WorkCancellationStatus$$anon$1@52cd05a0))))) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message DetachedLogEvent(LogSuccess(Total time: 2 s, completed Jul 12, 2015 2:49:08 PM)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message DetachedLogEvent(LogMessage(debug,> server-post-command-cleanup)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message ExecutionSuccess(6) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
+Dropping message DetachedLogEvent(LogMessage(debug,> server-handle-next-server-request)) to dead client activator-1ca4990f-ddbc-4cab-84bb-ad17e7d0eabe
